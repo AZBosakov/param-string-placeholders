@@ -1,0 +1,32 @@
+{
+    "name": "azbosakov/param-string-placeholders",
+    "description": "Template string with configurable placeholder delimiters.",
+    "keywords": ["template", "templating", "placeholder"],
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8",
+        "azbosakov/param-string-interface": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandar Zdravkov Bosakov",
+            "email": "aleksandar.z.bosakov@gmail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AZBosakov\\ParamString\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AZBosakov\\ParamString\\": "test/"
+        }
+    },
+    "require": {
+        "azbosakov/param-string-interface": "^1.0"
+    }
+}
